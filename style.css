@@ -1,0 +1,496 @@
+body, ul, span, br, h1, h2, h3, h4, p{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1344px;
+}
+.col{
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+.col-1{
+    width: calc(100% * 1 / 12);
+}
+.col-2 {
+    width:calc(100% * 1 / 6)
+}
+.col-4{
+    width:calc(100% / 3);
+}
+.col-3{
+    width: calc(100% / 4);
+}
+.col-8{
+    width: calc(100% * 2 / 3);
+}
+.col-10{
+    width: calc(100% * 5 / 6 - 24px );
+}
+
+.col-6{
+    width: calc(50%);
+}
+
+#navbar {
+    position: absolute;
+    width: 100%;
+    background-color: #ece8e7;
+}
+#navbar .container{
+    justify-content: space-between;
+}
+#navbar .logo{
+    padding: 0 12px;
+}
+#navbar .logo img {
+    height: 60px;
+    width: auto;
+}
+#navbar .menu{
+    padding: 0 12px;
+}
+#navbar ul{
+    list-style : none;
+}
+#navbar ul::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+#navbar ul li{
+    float: left;
+    margin: 0 24px;
+}
+
+#navbar ul li a{
+
+    color: black;
+    text-decoration: none;
+}
+#navbar .button{
+    background-color: black;
+    border-radius: 12px;
+    margin-right: 12px;
+}
+#navbar .button a{
+    color: white;
+    gap: 8px;
+    padding: 12px 15px;
+    align-items: center;
+    display: flex;
+
+    text-decoration: none;
+    /* padding : 10px 10px; */
+}
+
+#hero{
+    display: flex;
+    padding: 0 30px;
+    /* padding-top: 100px; */
+    /* height: 1000px; */
+    background-color: #ece8e7;
+}
+#hero .container{
+    padding-top: 100px;
+}
+#hero .content{
+    padding-top: 100px;
+}
+
+#hero .content h2{
+    width: 30px;
+    font-weight: bolder;
+    font-size: 72px;
+    text-transform: uppercase;
+    
+}
+#hero .content > p{
+    font-size: 20px;
+    padding: 10px 0;
+}
+#hero h2 p{
+    margin: 15px 0;
+}
+
+#hero .content span{
+
+}
+
+#hero h2 span.classic{
+    padding: 8px 13px;
+    background-color: white;
+}
+
+#hero h2 span.natural{
+    padding: 8px 13px;
+    background-color: orange;
+}
+#hero .pic img{
+    filter: drop-shadow(10px 0 0  white) drop-shadow(10px 0 0 orange) ;
+}
+
+#new-arrival{
+    padding: 0 30px;
+}
+#new-arrival .container{
+
+    justify-content: left;
+}
+#new-arrival .title{
+    padding: 0 12px;
+    padding-top: 150px;
+
+}
+#new-arrival .title h2{
+    font-size: 48px;
+}
+
+#new-arrival .card{
+    padding: 0 12px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+#new-arrival .images{
+    background-color: grey;
+    width: fit-content;
+}
+#new-arrival img{
+    height: 350px;
+    width: auto;
+}
+#new-arrival img.tshirt{
+    height: 350px;
+    width: 350px;
+}
+
+#new-arrival .card h4{
+    padding-top: 25px;
+    font-size: 26px;
+}
+#new-arrival .arrow{
+    background-color: white;
+    justify-content: right;
+    display: flex;
+    padding-right: 80px;
+
+}
+#new-arrival .arrow > img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+#new-arrival .card p{
+    font-size: 20px;
+    color: rgb(51, 50, 50);
+}
+
+#payday{
+    background-color: orange;
+}
+
+#payday .pic{
+    padding: 0px 12px;
+    padding-right: 50px;
+}
+
+#payday .pic img{
+    filter: drop-shadow(10px 20px 0 grey) drop-shadow(10px 20px 0 white);
+}
+#payday .content{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+}
+
+#payday .paydaay{
+    /* background-color: grey; */
+}
+#payday .paydaay > p{
+    background-color: rgb(180, 179, 179);
+    font-size: 72px;
+    width: fit-content;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding: 4px 12px;
+}
+
+#payday .sale {
+
+}
+#payday .sale > p{
+    font-size: 72px;
+    width: fit-content;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+
+#payday .spend > p{
+    font-size: 32px;
+    padding-bottom: 25px;  
+}
+
+#payday .date > p{
+    font-size: 30px;
+}
+
+#payday .term > p{
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+#payday .buttonshop{
+    background-color: black;
+    width: fit-content;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+#payday .buttonshop a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+
+#available{
+    margin-top: 100px;
+    padding: 0 24px;
+}
+#available .title{
+    
+}
+#available .title h2{
+    font-size: 40px;
+}
+#available .title p{
+    font-size: 24px;
+    padding: 10px 0px;
+}
+#available .title .button{
+    background-color: black;
+    display: flex;
+    width: fit-content;
+    border-radius: 10px;
+}
+#available .button a{
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+}
+#available .list-vendor{
+    width: 250px;
+    height: 300px;
+}
+#available .list-vendor .vendor{
+
+}
+
+#available .pic1{
+    margin-bottom: 20px;
+}
+#available .pic1 > img, #available .pic2 > img{
+    width: 150px;
+    height: 100px;
+    background-color: lightslategray;
+    padding: 20px 20px;
+}
+#young {
+    padding: 0 30px;
+    padding-top: 100px;
+    
+}
+
+#young .container {
+    justify-content: left;
+}
+
+#young .title{
+    font-size: 32px;
+}
+#young .model{
+    margin: 0 15px;
+    padding-top: 100px;
+}
+#young .model .image{
+    background-color:lightgray;
+    display: flex;
+    justify-content: center;
+    
+}
+#young .model img{
+    height: 400px;
+    width: auto;
+}
+#young .model h4{
+    padding-top: 25px;
+    font-size: 26px;
+}
+#young .arrow{
+    background-color: white;
+    justify-content: right;
+    display: flex;
+    
+
+}
+#young .arrow > img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+#young .model p{
+    font-size: 20px;
+    color: rgb(51, 50, 50);
+}
+
+#download{
+    padding-top: 100px;
+}
+
+#download .text h3{
+    font-size: 32px;
+    width: 50%;
+    text-transform: uppercase;
+}
+#download .text p{
+    padding-top: 30px;
+    font-size: 20px;
+    color: rgb(51, 50, 50);
+    width: 50%;
+}
+#download .text img{
+    padding-top: 30px;
+}
+
+#join{
+    margin-top: 100px;
+    padding-top: 100px ;
+    background-color: orange;
+    
+}
+#join .container{
+    text-align: center;
+}
+#join .content h1{
+    font-size: 45px;
+    /* width:75%; */
+    color: white;
+}
+
+#join .content p{
+    font-size: 20px;
+    padding: 10px 0;
+
+}
+#join .content .search{
+    background-color: white;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+}
+#join .content input{
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 19px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+#join .content form{
+    width: 100%;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+#join .content button{
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 19px;
+    color: white;
+    background-color: black;
+}
+#footer{
+    background-color: black;
+}
+#footer .container{
+    padding: 100px 0;
+}
+
+#footer .card > .bottom p{  
+    color: white;
+    font-size: 20px;
+}
+#footer .card2 > .bottom p{  
+    color: white;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+#footer .card > .top{
+    /* padding-bottom: 30px; */
+    font-size: 30px;
+    color: white;
+}
+#footer .card > .bottom{
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 175px;
+}
+#footer .card2 > .top{
+    font-size: 30px;
+    color: white;
+    margin-top: 22px;
+}
+#footer .card2 > .bottom{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+#footer .card2 > .bottom p{
+    padding-top: 20px ;
+}
+/* #footer .logo{
+    width: 100%;
+} */
+/* #footer .image{
+    margin: 0 10px;
+    background-color: orange;
+    height: 30x;
+    width: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+ 
+} */
+#footer .logo img{
+    padding-top: 10px;
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-bottom: 85px;
+    padding: 8px 5px ;
+}
+
+
+
+
+
+
+
+
+
